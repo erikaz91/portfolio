@@ -1,0 +1,284 @@
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   letter-spacing: 5px;
+   padding: 70px 40px;
+   color: rgb(77, 76, 76);
+   font-weight: bolder;
+
+}
+
+
+.icon-img{
+   width: 35px;
+   height: 35px;
+   padding-top:20px;
+
+
+}
+
+
+
+.header-list{
+   padding-top: 5px;
+   padding-bottom:100px;
+   margin: 0px auto;
+   width: 370px;
+
+}
+
+.headerlist {
+   float: left;
+   list-style: none;
+   padding: 5px 5px;
+   font-size: 17px;
+}
+
+
+a {
+   text-decoration: none;
+   color:grey;
+}
+
+a:hover{
+   color: rgb(54, 54, 54);
+   font-weight: bolder;
+}
+
+.introduction{
+   display: flex;
+   width: 750px;
+   margin:0 auto;
+   padding-top: 40px;
+}
+
+.intro-img{
+   height: 200px;
+   width: 200px;
+}
+
+
+.intro-list{
+   font-size: 20px;
+   list-style: none;
+}
+
+h1{
+color: black;
+text-align: center;
+font-size:30px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 80px;
+padding-bottom: 5px;
+border-bottom: 3px solid rgb(89, 201, 139);
+width:280px;
+margin: auto;
+
+
+
+}
+
+.like{
+   display: flex;
+   justify-content: center;
+   padding-top:50px;
+
+}
+.contents-item{
+   margin: 25px;
+   padding:0px 10px 0px 15px;
+}
+
+.contents-item p{
+   width: 220px;
+}
+
+.like-img{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+}
+
+.line {
+   background: -moz-linear-gradient(left, rgb(255, 218, 8), rgb(116, 218, 138) 60%, rgb(58, 220, 231) 90%);
+   background: -webkit-linear-gradient(left, rgb(255, 218, 8), rgb(116, 218, 138) 60%,  rgb(58, 220, 231) 90%);
+   background: linear-gradient(to right,rgb(255, 218, 8) , rgb(116, 218, 138) 60%, rgb(58, 220, 231) 90%);
+   font-size: 1px;
+   padding: 7px;
+   margin: 15px 200px 15px 200px;
+
+}
+
+p{
+   text-align: center;
+   font-size: 18px;
+   padding-top: 20px;
+
+}
+span{
+   font-weight: bold;
+}
+
+
+/* form{
+   padding-top:20px;
+   text-align: center;
+   justify-content: center;
+
+
+}
+
+ul li{
+   list-style: none;
+}
+
+.form-list{
+
+margin-top:20px;
+
+}
+
+
+.name{
+   margin-left:110px;
+}
+
+.mail{
+   margin-left:30px;
+}
+
+textarea{
+   margin-left:20px;
+   border: 1px gray double;
+   height: 100px;
+
+}
+
+input{
+   border: 1px gray double;
+   height: 25px;
+
+} */
+
+.submit{
+   width: 100px;
+   height: 30px;
+   display: block;
+   margin:20px auto;
+   background-color: rgb(212, 216, 219);
+   font-size: 18px;
+
+}
+
+.submit:hover {
+   color: rgb(54, 54, 54);
+   font-weight: bolder;
+   background-color: rgb(94, 189, 184);
+
+}
+
+
+
+.cal {
+
+   margin:0 auto;
+   width: 150px;
+}
+.cal table {
+   border: solid 1px green;
+   width: 140px;
+}
+.cal caption {
+   border: solid 1px green;
+   border-bottom: none;
+   background: aquamarine;
+}
+.cal td.today {
+   background: aquamarine;
+}
+
+.sns{
+   display: flex;
+   width: 200px;
+   margin: 0 auto;
+}
+
+.footer-list{
+   padding-top:150px;
+   justify-content:center;
+   list-style: none;
+}
+
+img{
+   width: 30px;
+   height: 30px;
+   margin:0 10px;
+}
+
+.footer-text{
+   color: gray;
+}
+
+
+.cp_iptxt {
+	position: relative;
+   width: 400px;
+   height: 80px;
+   margin: auto;
+}
+.cp_iptxt input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptxt input[type=text]:focus {
+	border-color:rgb(94, 189, 184);
+}
+.cp_iptxt input[type=text] {
+	padding-left: 40px;
+}
+.cp_iptxt i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+.cp_iptxt input[type=text]:focus + i {
+   color:rgb(94, 189, 184);
+}
+
+
+
+
+.cp_iptxt textarea[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptxt textarea[type=text]:focus {
+	border-color:rgb(94, 189, 184);
+}
+.cp_iptxt textarea[type=text] {
+	padding-left: 40px;
+}
+
+.cp_iptxt textarea[type=text]:focus + i {
+   color:rgb(94, 189, 184);
+}

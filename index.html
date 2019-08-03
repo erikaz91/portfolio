@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/Erika%20Ohmori/Desktop/PRwebsite/index.html -->
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>大森絵梨香の逆求人サイト</title>
+  <link rel="stylesheet" href="file:///C:/Users/Erika%20Ohmori/Desktop/PRwebsite/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+
+  <script type="text/javascript">
+
+    function cal(year,month,day) {
+      today=new Date();
+      if (!year) var year=today.getFullYear();
+      if (!month) var month=today.getMonth();
+      else month--;
+      if (!day) var day=today.getDate();
+      var leap_year=false;
+      if ((year%4 == 0 && year%100 != 0) || (year%400 == 0)) leap_year=true;
+      lom=new Array(31,28+leap_year,31,30,31,30,31,31,30,31,30,31);
+      dow=new Array("日","月","火","水","木","金","土");
+      var days=0;
+      for (var i=0; i < month; i++) days+=lom[i];
+      var week=Math.floor((year*365.2425+days)%7);
+      var j=0;
+      var when=year+"年 "+(month+1)+"月";
+      var calendar="<table summary=\""+when+"のカレンダー\">\n";
+      calendar+="<caption>"+when+"<\/caption>\n<tr>";
+      for (i=0; i < 7; i++) calendar+="<td>"+dow[i]+"<\/td>";
+      calendar+="<\/tr>\n<tr>";
+      for (i=0; i < week; i++,j++) calendar+="<td><\/td>";
+      for (i=1; i <= lom[month]; i++) {
+       calendar+="<td";
+       if (day == i) calendar+=" class=\"today\"";
+       calendar+=">"+i+"<\/td>";
+       j++;
+       if (j > 6) {
+        calendar+="<\/tr>\n<tr>";
+        j=0;
+       }
+      }
+      for (i=j; i > 6; i++) calendar+="<td><\/td>";
+      calendar+="<\/tr>\n<\/table>\n";
+      return calendar;
+     }
+
+  </script>
+
+
+</head>
+
+  <body>
+    <header>
+
+    <div class="icon">
+     <p>Erika's reverse job application</p>
+     <img class="icon-img" src="img/voice.png">
+    </div>
+
+    <div class="line">あ</div>
+    <div class="header-list">
+        <ul>
+          <li class="headerlist"><a href="#自己紹介">自己紹介</a></li>
+          <li class="headerlist"><a href="#趣味">趣味</a></li>
+          <li class="headerlist"><a href="#作品集">作品集</a></li>
+          <li class="headerlist"><a href="#お問い合わせ">お問い合わせ</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <div class="top">
+
+
+    </div>
+
+<section>
+  <h1 id="自己紹介">自己紹介</h1>
+    <div class="introduction">
+     <img class="intro-img" src="img/girl.png">
+     <ul>
+      <li class="intro-list">名前：大森絵梨香</li>
+      <li class="intro-list">大学：近畿大学国際学部国際学科</li>
+      <li class="intro-list">出身：滋賀県</li>
+      <li class="intro-list"> <p>アメリカ留学から帰ってきたタイミングで、「新しい挑戦をしたい！」と思い未来電子に入社しました。現在は、ライター業務に携わりながら、プログラミングを学習しています。次々と成果を挙げている同世代に刺激を受け、将来の可能性を広げていきたいです。</p></li>
+    </ul>
+    </div>
+
+
+  <h1 id="趣味">趣味</h1>
+
+  　<div class="like">
+
+    　<div class="contents-item">
+      　<img class="like-img" src="file:///C:/Users/Erika%20Ohmori/Desktop/PRwebsite/img/airplane.jpeg" alt="飛行機の翼の画像">
+      　<p class="like-note">飛行機に乗ることが好きです。滅多に乗れない特別感がたまりません。長時間のフライトでうんざりしても、少し時間が経つと、また乗りたくなります。</p>
+   　　</div>
+
+    　<div class="contents-item">
+     　<img class="like-img" src="file:///C:/Users/Erika%20Ohmori/Desktop/PRwebsite/img/hair.jpeg" alt="ヘアアレンジの画像">
+     　<p class="like-note">ヘアアレンジが得意です。編み込み・フィシュボーンなどができます！髪型でちょっとイメージを変えたい方、いつでも声掛けてください！</p>
+    　</div>
+
+    　<div class="contents-item">
+      　<img class="like-img" src="file:///C:/Users/Erika%20Ohmori/Desktop/PRwebsite/img/sports.jpeg" alt="陸上競技場の画像">
+      　<p class="like-note">体力はゼロに近いですが、体を動かすことが好きです。見ることも好きなので、野球・サッカー・陸上・バレーの試合観戦も行きます。</p>
+    　</div>
+
+  　</div>
+
+　<h1 id="作品集">作品集</h1>
+　　
+   <p><span>作品番号　(1)</span><br>
+     javascriptでカレンダーを作成しました。</p>
+
+
+    <div class="cal">
+      <script type="text/javascript">
+      document.write(cal());
+      </script>
+    </div>
+
+    <p>作成した作品を、随時追加していきます!!!</p>
+
+
+　<h1 id="お問い合わせ">お問い合わせ</h1>
+
+   <div class="cp_iptxt">
+	   <input  class="name" type="text" placeholder="お名前">
+	   <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+   </div>
+
+   <div class="cp_iptxt">
+	   <input type="text" placeholder="メールアドレス">
+	   <i class="fas fa-envelope" aria-hidden="true"></i>
+   </div>
+
+   <div class="cp_iptxt">
+   	<textarea type="text" placeholder="お問い合わせ内容"></textarea>
+	   <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+   </div>
+
+   <input class="submit" type="submit" value="送信">
+
+
+<!-- <form action="index.html" method="GET">
+    <ul>
+    　<li class="form-list">
+      　<label for="name">名前</label>
+     　 <input  class="name "id="name" type="text" name="name" placeholder="未来　太郎">
+    　</li>
+    　<li class="form-list">
+      　<label for="email">メールアドレス</label>
+      　<input class="mail" id="email" type="text" name="email" placeholder="info@example.com">
+    　</li>
+    　<li class="form-list">
+      　<label for="textarea">お問い合わせ内容</label>
+      　<textarea id="textarea"></textarea>
+    　</li>
+    　<li class="form-list">
+      　<input class="submit" type="submit" value="送信">
+   　 </li>
+    </ul> -->
+
+
+</section>
+
+  <footer>
+
+    <ul class="sns">
+      <li class="footer-list"><a href="https://ja-jp.facebook.com/miraidenshi" target="_blank"><img src="img/fb.png"></a></li>
+      <li class="footer-list"><a href="https://twitter.com/miraidenshi123" target="_blank"><img src="img/Twitter.png"></a></li>
+      <li class="footer-list"><a href="https://www.instagram.com/o_eri91/" target="_blank"><img src="img/insta.png"></a></li>
+    </ul>
+
+
+ 　 <p class="footer-text">copyright© Erika Omori All Right Reserved.</p>
+
+  </footer>
+
+
+
+</body>
+</html>
